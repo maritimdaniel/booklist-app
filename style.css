@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:focus {
+    outline: none !important;
+}
+.container {
+    max-width: 50vw;
+    min-height: 20vh;
+    margin: 0 auto;
+}
+h1 {
+    margin: 1em 0 0.3em;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 3.5em;
+}
+h1 > i,
+h1 > span {
+    color: rgb(109, 206, 238);
+}
+.alert {
+    border: 1px solid black;
+    padding: 0.8em;
+    text-align: center;
+    display: none;
+    border-radius: 0.2em;
+}
+.alert.success {
+    background-color: rgb(161, 243, 161);
+    display: block;
+}
+.alert.danger {
+    background: rgb(224, 117, 117);
+    display: block;
+    color: white;
+}
+
+input {
+    display: inline-block;
+    width: 100%;
+    padding: 0.8em;
+    cursor: pointer;
+}
+label {
+    display: inline-block;
+    margin: 1em 0 0.5em;
+}
+.submit-btn {
+    display: block;
+    cursor: pointer;
+    padding: 0.7em 1.3em;
+    margin: 1em auto 2em;
+    background-color: rgb(141, 235, 141);
+    border: none;
+    border-radius: 0.3em;
+
+}
+.submit-btn:hover {
+    background: rgb(84, 206, 84);
+}
+
+/* table */
+table {
+    width: 100%;
+}
+th {
+    text-align: left;
+}
+table,
+td,
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table,
+td,
+th {
+    border-right: none;
+    border-left: none;
+
+}
+td,
+th {
+    padding: 0.6em;
+}
+td {
+    background: rgb(238, 238, 238);
+}
+.table-btn {
+    background: rgb(241, 90, 90);
+    border: none;
+    padding: 0.3em 0.5em;
+    color: white;
+    cursor: pointer;
+}

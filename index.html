@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>booklist app</title>
+        <link rel="stylesheet" href="style.css">
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+            integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+            crossorigin="anonymous"/>
+    </head>
+    <body>
+        <div class="container">
+            <h1>
+                <i class="fa fa-book" aria-hidden="true"></i>
+                My<span>Book</span>List</h1>
+            <div class="alert">alert</div>
+            <form class="form">
+                <label for="title">Title</label>
+                <input type="text" class="title">
+                <label for="author">Author</label>
+                <input type="text" class="author">
+                <label for="book-number">ISBN#</label>
+                <input type="text" class="book-number">
+                <button class="submit-btn" type="submit">Submit</button>
+            </form>
+            <table class="table">
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>ISBN</th>
+                    <th></th>
+                </tr>
+                <!-- <tr> <td>css in depth</td> <td>unkown</td> <td>2436</td> <td> <button
+                class="table-btn"> <i class="fas fa-times"></i> </button> </td> </tr> -->
+            </table>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
